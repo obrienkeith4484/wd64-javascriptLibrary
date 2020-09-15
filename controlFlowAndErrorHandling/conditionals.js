@@ -243,3 +243,47 @@ switch(instructor) {
     default:
         console.log(`Sorry, I can't find what ${instructor} teaches.`);
 }
+//
+
+switch(grade) {
+    case 'A' :
+        console.log(`${grade} is a part of the Web Dev Team.`);
+        break;
+    
+    case 'Zach' :
+        console.log(`${instructor} is a part of the Web Dev Team.`);
+        break;
+    case 'Josh' :
+        console.log(`${instructor} is a part of the Web Dev Team.`);
+        break;
+    case 'Josh' :
+        console.log(`${instructor} is a part of the Web Dev Team.`);
+        break;
+        default:
+            console.log(`${instructor} is a part of the Web Dev Team.`);
+        //Need to use a default to help us catch those cases when none are true.
+}
+//
+//
+******
+! CHALLENGE 
+* ***
+switch(grade) {
+    case 'A' :
+        console.log(`${grade} is is a passing grade.`);
+        break;
+    case 'B' :
+        console.log(`${grade} is is a passing grade.`);
+        break;
+    case 'C' :
+        console.log(`${grade} is is a passing grade.`);
+        break;
+    case 'D' :
+        console.log(`${grade} is is a passing grade.`);
+        break;
+    case 'F' :
+        console.log(`${grade} is is a passing grade.`);
+        break;
+        default:
+            console.log(`${instructor} is a passing grade.`);
+}

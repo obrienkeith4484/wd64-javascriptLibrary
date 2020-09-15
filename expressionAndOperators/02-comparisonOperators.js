@@ -42,3 +42,26 @@ console.log('3' !== 3);
 
 //? Order 'Or'
 2 || 3;
+
+//? Review
+
+let age = 20; // age is 20
+
+let ageStr = "20";
+
+let booleanObject = true;
+
+// let something = age == ageStr
+console.log("----------------------");
+console.log(age === ageStr);
+console.log(typeof(age));
+console.log(typeof(ageStr));
+console.log(typeof(booleanObject));
+
+// Type Coercion
+// Object Oriented Language meaning everything (variable, string, number, function) is an object
+// == does type coercion and converts an object so that it matches another object that it is being compared to
+// age == ageStr returns True because JS converts one of the objects to match another
+// age === ageStr returns False because JS sees that one is a number and the other is a string; therefore, NOT the same
+
+
