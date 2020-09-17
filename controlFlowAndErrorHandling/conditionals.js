@@ -265,10 +265,10 @@ switch(grade) {
 }
 //
 //
-******
+* ***
 ! CHALLENGE 
 * ***
-switch(grade) {
+switch (grade) {
     case 'A' :
         console.log(`${grade} is is a passing grade.`);
         break;

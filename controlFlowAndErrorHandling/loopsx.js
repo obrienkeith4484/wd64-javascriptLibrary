@@ -10,9 +10,10 @@
         3) Change to the indexing variable (execution of condition)
 */
 
-for(let i = 0; i <= 10; i++) {
+for (let i = 0; i <= 10; i++) {
     console.log(i);
 }
+
 
 /*
     We state our loop with a "for".
@@ -88,7 +89,7 @@ let name = 'piCard';
  //   console.log(name.toUpperCase());
 //}
 
-let name = 'piCard';
+//let name = 'piCard';
 
 //let fullName;
 
