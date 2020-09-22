@@ -131,3 +131,17 @@ let testObj = {
 
 console.log(testObj.noSpaces);
 console.log(testObj["Spaces Here"])
+
+
+// let spaceJam = {
+//     toonSquad: {
+//         human: 'Michael Jordan',
+//         rabbit1: 'Bugs',
+//         rabbit2: 'Lola',
+//         duck:  'Daffy',
+//         TDevil: 'Tasmanian Devil',
+//         bird:  'Tweety',
+//         cat: 'Sylvester',
+//         pig: 'Porky',
+//     }
+// }
